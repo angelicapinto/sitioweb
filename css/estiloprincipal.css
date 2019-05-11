@@ -1,9 +1,21 @@
 #principal{
 	width: 900px;
-	height: auto; overflow: hidden;
+	height: auto; 
+	overflow: hidden;
 	border: 0px solid #000;
 	margin: auto;
+}
 
+#footer-info{
+	width: 900px;
+	height: auto; 
+	overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;
+}
+
+#pie-pagina{
+	color: white;
 }
 
 header{
@@ -160,8 +172,14 @@ footer{
 	margin-bottom: 50px;
 	border: 1px solid #ccc;
 	height: 70px; overflow: hidden;
+	background-color: chocolate;
 }
 
+.icono-social
+{
+  width: 20px;
+  height: 20px;
+}
 
 /*------------contacto------------------------*/
 #formulario{

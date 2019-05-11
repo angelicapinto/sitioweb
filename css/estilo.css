@@ -1,19 +1,23 @@
 #principal{
 	width: 900px;
-	height: auto; overflow: hidden;
-	border: 0px solid #000;
-	margin: auto;
-}
-
-#footer{
-	width: 900px;
 	height: auto; 
 	overflow: hidden;
 	border: 0px solid #000;
 	margin: auto;
-	width: 900px;
-	text-align: center;
 }
+
+#footer-info{
+	width: 900px;
+	height: auto; 
+	overflow: hidden;
+	border: 0px ;
+	margin: auto;
+}
+
+#pie-pagina{
+	color: white;
+}
+
 
 header{
 	width: 900px;
@@ -23,8 +27,7 @@ header{
 	color: darkgoldenrod;
 }
 
-#subtitulos
-{
+#subtitulos{
 	color: #4682b4
 }
 
@@ -158,6 +161,7 @@ header{
 	height: 70px; 
 	overflow: hidden;
 	text-align: center;
+	background-color: chocolate;
 }
 
 .icono-social
