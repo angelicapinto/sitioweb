@@ -3,16 +3,7 @@
 	height: auto; overflow: hidden;
 	border: 0px solid #000;
 	margin: auto;
-}
 
-#footer{
-	width: 900px;
-	height: auto; 
-	overflow: hidden;
-	border: 0px solid #000;
-	margin: auto;
-	width: 900px;
-	text-align: center;
 }
 
 header{
@@ -25,6 +16,7 @@ header{
 
 #subtitulos
 {
+	font-size: 2px;
 	color: #4682b4
 }
 
@@ -38,7 +30,6 @@ header{
 .titulo{
 	margin-top: 25px;
 	font-size: 25px;
-	font-family: 'Days One', sans-serif;
 }
 
 .sub-titulo{
@@ -82,14 +73,19 @@ header{
 
 
 .uno{
-	margin-top: 15px;
-	width: 280px;
-	height: 560px; overflow: auto;
+	margin-top: 10px;
+	width: 150px;
+	height: 180px; overflow: hidden;
 	border: 1px solid #ccc;
 	float: left;
-	padding: 5px;
+	padding: 2px;
 	text-align: center;
 	color: #4682b4;
+}
+
+.foto
+{
+	padding-top:3px;
 }
 
 .parrafo{
@@ -127,10 +123,17 @@ header{
 #parrafoInfo
 {
 	text-align: center;
+
 }
 .img{
 	margin-right: 7px;
 	margin-bottom: 7px;
+}
+
+footer{
+	width: 900px;
+	height: 100px;
+	text-align: center;
 }
 
 #footer p{
@@ -140,6 +143,7 @@ header{
 
 
 #der{
+
 	width: 888px;
 	height: 400px; overflow: hidden;
 	padding: 5px; color: #4682b4;
@@ -155,15 +159,7 @@ header{
 	margin-top: 12px;
 	margin-bottom: 50px;
 	border: 1px solid #ccc;
-	height: 70px; 
-	overflow: hidden;
-	text-align: center;
-}
-
-.icono-social
-{
-  width: 20px;
-  height: 20px;
+	height: 70px; overflow: hidden;
 }
 
 
@@ -202,6 +198,7 @@ textarea{
 	color: #fdfdfd;
 	font-size: 16px;
 }
+
 
 #datos{
 	margin-top: 30px;
